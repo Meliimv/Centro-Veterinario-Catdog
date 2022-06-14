@@ -1,0 +1,46 @@
+@import "../base/variables";
+
+/* -------SERVICIOSSS------- */
+.servicios {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servicios>div {
+    width: 50%;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 2px solid rgba(180, 18, 72, 0.205);
+    border-radius: 5px;
+    box-shadow: 5px 5px 37px -4px rgba(0, 0, 0, 0.75);
+    background-color: rgb(228, 200, 175);
+}
+
+.servicios div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.servicios div div:hover {
+    transform: scale(2);
+    transition-property: all 2;
+    color: rgb(128, 33, 33);
+}
+
+.servicios>div img {
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+
+}

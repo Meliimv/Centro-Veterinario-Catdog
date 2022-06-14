@@ -1,0 +1,115 @@
+@import "../base/variables";
+/* -----NOSOTROSSS------ */
+
+.nosotros {
+    margin: 10px;
+}
+
+.nuestraClinica {
+    >div {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 10px 10px 10px 10px;
+            animation-name: moverElemento;
+            animation-duration: 2s;
+            animation-delay: 0;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in-out;
+        }
+
+        div {
+            h1 {
+                text-align: center;
+                color: $subh3;
+            }
+
+            p {
+                margin: 40px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+@keyframes moverElemento {
+    0% {
+        width: 400px;
+        transform: translate(30px, 50px);
+    }
+
+    50% {
+        width: 1000px;
+        transform: scale3d(2)
+    }
+
+    100% {
+        width: 1500px;
+        transform: translateY(100px)
+    }
+}
+
+
+/* ----mision------ */
+
+.mision {
+    >div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        img {
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        div {
+            h2 {
+                text-align: center;
+                color: $subh3;
+            }
+
+            p {
+                margin: 40px;
+                text-align: justify;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}
+
+/* ----vision----- */
+.vision {
+    >div {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 10px 10px 10px 10px;
+        }
+
+        div {
+            h2 {
+                color: $subh3;
+                text-align: center;
+            }
+
+            p {
+                margin: 40px;
+                text-align: justify;
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}

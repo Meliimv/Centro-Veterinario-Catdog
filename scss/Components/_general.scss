@@ -1,0 +1,100 @@
+@import "../base/variables";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*--------body------*/
+
+
+body {
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+/* -------GRILLAS -------- */
+.grilla {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "main main"
+        "footer footer";
+}
+
+/*--------header-----*/
+
+.header:hover {
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+}
+
+/*------- main -------*/
+.main {
+    grid-area: main;
+}
+
+/*-------footer------*/
+
+.footer {
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: footer;
+    background: rgb(241, 234, 132);
+    background: linear-gradient(90deg, rgb(240, 245, 176) 0%, rgb(233, 235, 133) 35%, rgb(255, 174, 0) 100%);
+}
+
+.footer ul {
+    color: $parrafo;
+    list-style: none;
+}
+
+.footer ul li a {
+    display: inline-block;
+    text-decoration: none;
+    align-self: stretch;
+}
+
+
+.titulo {
+    color: $subh3;
+    font-family: sans-serif;
+}
+
+.contacto {
+    color: $parrafo;
+}
+
+.footer div {
+    margin-top: 10px;
+    display: flex;
+    margin: 10px;
+}
+
+.footer div a {
+    align-items: flex-end;
+    text-align: end;
+}
+
+.footer h3 {
+    text-align: center;
+
+}
+
+.footer a img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer div h6 {
+    align-items: flex-end;
+    justify-content: flex-end;
+}

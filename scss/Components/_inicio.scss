@@ -1,0 +1,130 @@
+@import "../base/variables";
+
+/*------- CEVECATDOG------*/
+.ceveCatdog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../pictures/mascotas.jpeg");
+    background-size: cover;
+    height: 100vh;
+    align-items: left;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.cevecatdog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: $subh3;
+}
+
+.cevecatdog p {
+    color: $parrafo;
+    width: 50%;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/*------ cuadro ver mas ------*/
+.verMas {
+    text-decoration: none;
+    color: $parrafo;
+    border: solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+/*------- cuidando a quienes mas quieres ------*/
+
+.cevecatdog h2 {
+    color: $parrafo;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+/*------- title------- */
+
+/* .ceveCatdog h1 { 
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}*/
+
+/* ------conocenos------- */
+
+.conocenos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.conocenos>div {
+    width: 350px;
+    height: 500px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgba(128, 128, 128, 0.205);
+    border-radius: 10px;
+    box-shadow: 10px 10px 37px -4px rgba(0, 0, 0, 0.75);
+    transition: 1s;
+}
+
+.conocenos divdiv {
+    padding: 10px;
+}
+
+.conocenos div div h3 {
+    color: $subh3;
+}
+
+.conocenos figure img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.conocenos figure img:hover {
+    transform: scale(1.1);
+
+}
+
+
+/* -----video------- */
+
+.video iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.video h3 {
+    color: $subh3;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+
+}
