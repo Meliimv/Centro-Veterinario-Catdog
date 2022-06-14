@@ -11,18 +11,13 @@
     align-items: left;
     margin-bottom: 40px;
     margin-left: 20px;
-    flex-wrap: wrap;
     background-attachment: fixed;
-}
-
-.cevecatdog {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     color: $subh3;
 }
 
+
+    
 .cevecatdog p {
     color: $parrafo;
     width: 50%;

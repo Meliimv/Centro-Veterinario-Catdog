@@ -134,22 +134,7 @@ body {
           align-items: left;
   margin-bottom: 40px;
   margin-left: 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   background-attachment: fixed;
-}
-
-.cevecatdog {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -589,7 +574,9 @@ body {
 }
 
 @media screen and (max-width: 604px) {
-  .cevecatdog p, .cevecatdog h1, .cevecatdog h2 {
+  .cevecatdog p,
+  .cevecatdog h1,
+  .cevecatdog h2 {
     margin-left: 3vh;
   }
   .cevecatdog a {
@@ -709,6 +696,32 @@ body {
   }
 }
 
+@media screen and (max-width: 675px) {
+  .servicios div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50vh;
+  }
+  .servicios div div h2 {
+    padding-right: 35px;
+  }
+  .servicios div div:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition-property: none;
+    transition-property: none;
+    color: #802121;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .servicios {
     margin: 20px;
@@ -731,12 +744,10 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 70%;
-    height: 35vh;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 625px) {
   .servicios div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -748,8 +759,31 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 80%;
-    height: 50vh;
+  }
+  .servicios div div h2 {
+    padding-right: 35px;
+  }
+  .servicios div div:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition-property: none;
+    transition-property: none;
+    color: #802121;
+  }
+}
+
+@media screen and (max-width: 529px) {
+  .servicios div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .servicios div div h2 {
     padding-right: 35px;

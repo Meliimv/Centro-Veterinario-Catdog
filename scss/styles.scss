@@ -106,7 +106,9 @@
 
 @media screen and (max-width:604px) {
 
-    .cevecatdog p, .cevecatdog h1, .cevecatdog h2 {
+    .cevecatdog p,
+    .cevecatdog h1,
+    .cevecatdog h2 {
         margin-left: 3vh;
     }
 
@@ -120,7 +122,8 @@
     .cevecatdog a h3 {
         text-align: center;
     }
-    .cevecatdog p{
+
+    .cevecatdog p {
         width: 70%;
         font-size: 3vh;
     }
@@ -224,6 +227,29 @@
     }
 }
 
+
+
+@media screen and (max-width:675px) {
+    .servicios div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+
+    .servicios div div h2 {
+        padding-right: 35px;
+    }
+
+    .servicios div div:hover {
+        transform: none;
+        transition-property: none;
+        color: rgb(128, 33, 33);
+
+
+    }
+}
+
 @media screen and (max-width:640px) {
 
     .servicios {
@@ -241,20 +267,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 70%;
-        height: 35vh;
+        
     }
 
 
 }
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:625px) {
     .servicios div {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80%;
-        height: 50vh;
+        
     }
 
     .servicios div div h2 {
@@ -269,6 +294,31 @@
 
     }
 }
+
+@media screen and (max-width:529px) {
+    .servicios div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .servicios div div h2 {
+        padding-right: 35px;
+    }
+
+    .servicios div div:hover {
+        transform: none;
+        transition-property: none;
+        color: rgb(128, 33, 33);
+
+
+    }
+}
+
+
+
+
 
 /* -----MEDIA QUERIE NOSOTROS */
 @media screen and (max-width:830px) {
